@@ -7,7 +7,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import { cleanup } from '@testing-library/react';
 
 // Klucz do API
-const APIKey = `d5ef99401ff5b94d28e426238d4d9881`;
+const APIKey = `144cea64cd248ce9386374fbf8aac63f`;
 const PL_LANG = 'pl';
 
 const App = () => {
