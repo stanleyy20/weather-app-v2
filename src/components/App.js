@@ -84,9 +84,6 @@ const App = () => {
         console.log(error);
         setError(true);
       });
-    return () => {
-      cleanup();
-    };
   }, [inputValue, lat, lon]);
 
   const handleOnClickDown = () => {

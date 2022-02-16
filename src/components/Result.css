@@ -38,6 +38,12 @@ h1 {
   }
 }
 
+@media (max-height: 400px) and (orientation: portrait) {
+  .result {
+    display: none;
+  }
+}
+
 @media (orientation: landscape) {
   .App {
     text-align: left;
