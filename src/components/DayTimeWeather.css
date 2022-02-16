@@ -49,6 +49,12 @@
   }
 }
 
+@media (max-height: 600px) and (orientation: portrait) {
+  .resultDayli {
+    top: 90%;
+  }
+}
+
 @media (orientation: landscape) {
   button.backBTN {
     top: 60%;

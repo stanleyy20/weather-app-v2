@@ -4,7 +4,7 @@ import Result from './Result';
 import Form from './Form';
 import DayTimeWeather from './DayTimeWeather';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import { cleanup } from '@testing-library/react';
+
 
 // Klucz do API
 const APIKey = `144cea64cd248ce9386374fbf8aac63f`;

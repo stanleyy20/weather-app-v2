@@ -38,9 +38,9 @@ h1 {
   }
 }
 
-@media (max-height: 400px) and (orientation: portrait) {
+@media (max-height: 600px) and (orientation: portrait) {
   .result {
-    display: none;
+    top: 85%;
   }
 }
 
