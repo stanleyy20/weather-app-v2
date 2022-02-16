@@ -46,3 +46,17 @@ body {
   top: 83%;
   transform: translate(-50%, -50%);
 }
+
+@media (max-height: 800px) and (orientation: portrait) {
+  .App button {
+    font-size: 15px;
+    top: 90%;
+  }
+}
+
+@media (orientation: landscape) {
+  .App button {
+    left: 20%;
+    top: 50%;
+  }
+}

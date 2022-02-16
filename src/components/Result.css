@@ -31,15 +31,21 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-@media (max-height: 800px) {
+@media (max-height: 800px) and (orientation: portrait) {
   .result {
-    top: 60%;
+    top: 55%;
     min-width: 70%;
   }
 }
 
-@media (max-height: 600px) {
+@media (orientation: landscape) {
+  .App {
+    text-align: left;
+    margin-left: 40px;
+  }
+
   .result {
-    top: 90%;
+    left: 75%;
+    background: none;
   }
 }
