@@ -5,7 +5,6 @@ import Form from './Form';
 import DayTimeWeather from './DayTimeWeather';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 
-
 // Klucz do API
 const APIKey = `144cea64cd248ce9386374fbf8aac63f`;
 const PL_LANG = 'pl';

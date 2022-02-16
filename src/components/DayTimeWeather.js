@@ -6,12 +6,10 @@ const DayTimeWeather = ({ dayliWeather, handleClickBack }) => {
   let dayliDate = null;
   let days = null;
   let icons = null;
-  let nightTemp = null;
 
   if (Boolean(dayliWeather)) {
-    dayliTemp = dayliWeather.map((day) => <h3>{Math.floor(day.temp.day)}</h3>);
-    nightTemp = dayliWeather.map((day) => (
-      <h3>\ {Math.floor(day.temp.night)}&#176;C</h3>
+    dayliTemp = dayliWeather.map((day) => (
+      <h3>{Math.floor(day.temp.day)}&#176;C</h3>
     ));
     dayliDate = dayliWeather.map((day) =>
       new Date(day.dt * 1000).toUTCString()
@@ -40,7 +38,6 @@ const DayTimeWeather = ({ dayliWeather, handleClickBack }) => {
         <div className='days'>{days} </div>
         <div className='icons'>{icons} </div>
         <div className='temp'>{dayliTemp}</div>
-        <div className='temp'>{nightTemp}</div>
       </div>
       <button className='backBTN' onClick={handleClickBack}>
         Powrót
