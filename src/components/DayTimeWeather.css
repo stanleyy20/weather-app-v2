@@ -55,7 +55,7 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-height: 500px) {
   button.backBTN {
     top: 60%;
     left: 14%;

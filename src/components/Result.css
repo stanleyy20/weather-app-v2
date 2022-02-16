@@ -44,7 +44,7 @@ h1 {
   }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-height: 500px) {
   .App {
     text-align: left;
     margin-left: 40px;
