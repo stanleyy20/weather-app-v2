@@ -76,12 +76,10 @@ const App = () => {
       })
       .then((response) => response.json())
       .then((data) => {
-        setError(false);
         setDayliWeather(data.daily);
       })
       .catch((error) => {
         console.log(error);
-        setError(true);
       });
   }, [inputValue, lat, lon]);
 

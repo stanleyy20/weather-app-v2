@@ -32,7 +32,7 @@ const DayTimeWeather = ({ dayliWeather, handleClickBack }) => {
   }
 
   const content = (
-    <React.Fragment>
+    <>
       <h3 className='title'>Prognoza na kolejne dni</h3>
       <div className='resultDayli'>
         <div className='days'>{days} </div>
@@ -42,7 +42,7 @@ const DayTimeWeather = ({ dayliWeather, handleClickBack }) => {
       <button className='backBTN' onClick={handleClickBack}>
         Powrót
       </button>
-    </React.Fragment>
+    </>
   );
 
   return content;
